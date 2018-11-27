@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>宽度自适应布局</title>
+        <style>
+            .wrap {
+                background-color: rgb(145, 211, 70);
+            }
+            .clearfix:after {
+                content: "";
+                clear: both;
+                display: block;
+            }
+        
+            .left {
+                float: left;
+                width: 200px;
+                background: rgb(0, 204, 255);
+                height: 180px;
+            }
+            .right {
+                float: right;
+                width: 150px;
+                background: rgb(255, 0, 212);
+                height: 200px;
+            }
+            .center {
+                background: #FFFFFF;
+                margin-left: 20px;
+                margin-right: 60px;
+                height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap clearfix">
+            <div class="left">left，宽度固定，高度可固定也可以由内容撑开。</div>
+            <div class="right">right，宽度固定，高度可固定也可以由内容撑开。</div>
+            <div class="center">center，可以自适ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss应浏览器宽ssssssssssssssssssssssssssssss度，高度可固定也可以由内容撑开。</div>
+        </div>
+    </body>
+</html>

@@ -1,6 +1,6 @@
 .index-banner {
     position: relative;
-    background: #b3b3b3;
+
 }
 
 .index-banner-bg {
@@ -14,20 +14,19 @@
 
 .index-banner-text {
     position: absolute;
-    top: 200px;
+    top: 210px;
     left: 50%;
-    margin-left: -388px;
-
+    margin-left: -390px;
 }
 
 .index-banner-text .text-logo {
-    width: 776px;
-    height: 117px;
+    width: 780px;
+    height: 120px;
     background: url("../images/index-banner-textlogo.png") no-repeat;
 }
 
 .index-banner-text .text-info {
-    margin-top: 19px;
+    margin-top: 18px;
     text-align: center;
     color: #fff;
     font-size: 16px;
@@ -35,34 +34,35 @@
 
 .index-banner-text .text-info .line {
     display: inline-block;
-    width: 39px;
+    width: 40px;
     border-top:  1px solid #fff ;
     vertical-align: middle;
 }
 
 .index-banner-text .text-info .line-l {
-    margin-right: 32px;
+    margin-right: 26px;
 }
 
 .index-banner-text .text-info .line-r {
-    margin-left: 32px;
+    margin-left: 26px;
 }
 
 /*菜单*/
 .index-menu {
     position: relative;
     border-top: 4px solid #f34949;
+    margin-top: -2px;
 }
 
 .index-menu .menu-tips {
     position: relative;
     left: 50%;
     top: 0;
-    margin-left: -78px;
-    width: 155px;
-    height: 75px;
+    margin-left: -80px;
+    width: 160px;
+    height: 76px;
     text-align: center;
-    line-height: 65px;
+    line-height: 66px;
     color: #fff;
     background: #f34949;
 
@@ -81,27 +81,23 @@
 }
 
 .index-menu .menu-list {
-    margin-top: 150px;
+    margin-top: 80px;
     color: #555555;
     overflow: hidden;
 }
 
 .index-menu .menu-list ul {
-    width: 1160px;
-
-
+    width: 1220px;
 }
 
 .index-menu .menu-item {
     float: left;
     width: 520px;
-    margin-right: 60px;
-    margin-bottom: 56px;
+    margin-right: 90px;
+    margin-bottom: 60px;
 }
 
-.index-menu .menu-item .title, .index-menu .menu-list .line {
-    float: left;
-}
+
 
 .index-menu .menu-list .price {
     float: right;
@@ -113,6 +109,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     color: #555555;
+    float: left;
 }
 
 .index-menu .menu-item .comment{
@@ -122,27 +119,33 @@
 }
 
 .index-menu .menu-list .line {
-    width: 192px;
+    width: 190px;
     border-top: 1px solid #e3e1e1;
     margin-top: 10px;
+    float: left;
 }
 
 .index-menu .menu-more-btn {
     margin: 0 auto;
     color: #b7b7b7;
-    width: 132px;
-    height: 32px;
+    width: 130px;
+    height: 30px;
     padding-left: 16px;
     border: 1px solid #b7b7b7;
     font-size: 14px;
     line-height: 32px;
 }
 
+.index-menu .menu-more-btn .line {
+    display: inline-block;
+    margin-left: 12px;
+}
+
 .index-menu .menu-more-btn .icon {
     display:inline-block;
-    width: 11px;
-    height: 7px;
-    margin-left: 20px;
+    width: 12px;
+    height: 8px;
+    margin-left: 12px;
     background: url("../images/index-menu-icon.png") no-repeat;
 }
 

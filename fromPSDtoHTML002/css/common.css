@@ -14,7 +14,7 @@
 }
 
 .public-header .header-nav {
-    float:right;
+    float: right;
     font-size: 14px;
 }
 
@@ -41,14 +41,14 @@
 
 .public-footer {
     padding-top: 100px;
-    background: #595959;
+    background: #3b3b3b;
     height: 218px;
 }
 
 .public-footer .footer-col{
     width: 230px;
     float: left;
-    margin-left: 60px;
+    margin-right: 60px;
     font-size: 16px;
     color: #fff;
     line-height: 1.8;
